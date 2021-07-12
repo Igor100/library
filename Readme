@@ -1,0 +1,18 @@
+pip install djangorestframework
+django-admin startproject library
+python manage.py startapp authors
+
+Create model Author class
+
+python manage.py makemigrations
+python manage.py migrate
+
+Do serializer layer class - AuthorSerializer
+
+Do view class - AuthorViewSet
+
+Do urls router in urls.py
+http://127.0.0.1:8000/api/authors/
+
+
+H/W
