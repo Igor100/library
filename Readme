@@ -1,6 +1,10 @@
+Lesson 1
 pip install djangorestframework
 django-admin startproject library
 python manage.py startapp authors
+
+./manage.py runserver
+
 
 Create model Author class
 
@@ -16,3 +20,15 @@ http://127.0.0.1:8000/api/authors/
 
 
 H/W
+
+Lesson 2
+React
+npx create-react-app frontend
+npm run start
+
+ - One Way Data Flow (только для небольших приложений как у нас)
+ - Uni Directional Data Flow (вроде как подходит для больших приложений)
+ Придуман Flux (Данные хранятся где то в хранилищах отдельно отображения)
+ Аналогия в React для больших приложений Redux
+
+ class App extends и есть One Way Data Flow
